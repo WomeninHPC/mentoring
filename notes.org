@@ -1,0 +1,55 @@
+#+title:  Emailer Script
+#+author: Elsa Gonsiorowski
+#+date:   April 29, 2019
+
+This org file can be used to send notification emails.
+
+** Matches
+
+#+NAME: matchmail
+#+BEGIN_SRC apples :tangle matchmail.scpt
+on run argv
+   set varMenteeName  to item 1 of argv
+   set varMenteeEmail to item 2 of argv
+   set varMentorName  to item 3 of argv
+   set varMentorEmail to item 4 of argv
+   set varTopics      to item 5 of argv
+
+   set varBody to "Hello " & varMenteeName & ", I would like to introduce you to your mentor, " & varMentorName & ".
+
+I hope you are both excited for ISC and the WHPC workshop (just about 6 weeks away)! I hope that you are both able to connect at least 3 times between now and the workshop. Please use email, video chat, slack direct-messages or whatever works best. Not every mentor will be able to attend ISC and/or the WHPC workshop, but hopefully you can prep for the conference together.
+
+I've created some documents about mentoring that you can find here: https://github.com/womeninhpc/mentoring
+
+In addition to working on your poster, lightning talk, and a general elevator pitch of your work, I've shared topics you indicated interest in discussing below.
+
+Please let me know if you have any questions!
+
+Elsa Gonsiorowski
+WHPC@ISC19 Mentor Chair
+
+Topics
+------
+" & varTopics & "
+"
+
+   tell application "Mail"
+        set theMessage to make new outgoing message with properties {subject: "WHPC@ISC19 Mentor Match", content: varBody, visible:true}
+        tell theMessage
+             make new to recipient with properties {name:varMenteeName, address:varMenteeEmail}
+             make new to recipient with properties {name:varMentorName, address:varMentorEmail}
+        end tell
+   end tell
+end run
+#+END_SRC
+
+#+NAME: m
+| MenteeName | MenteeEmail | MentorName | MentorEmail | topics   |
+|------------+-------------+------------+-------------+----------|
+| redacted   | redacted    | redacted   | redacted    | redacted |
+
+#+BEGIN_SRC bash :var mentee=m[,0] menteeEmail=m[,1] mentor=m[,2] mentorEmail=m[,3] topics=m[,4]
+for i in `seq 0 6`; do
+osascript matchmail.scpt "${mentee[$i]}" "${menteeEmail[$i]}" "${mentor[$i]}" "${mentorEmail[$i]}" "${topics[$i]}"
+done
+#+END_SRC
