@@ -2,22 +2,27 @@
 
 ## Mentoring Pairs
 
-Mentor pairs are assigned in April and consist of 1 community volunteer (the mentor) and 1 poster presenter (the mentees).
+Mentor pairs are assigned about 6 weeks before the conference and consist of 1 community volunteer (the mentor) and 1 presenter (the mentees).
 These matches are assigned based on the responses from the matching surveys.
-While we do our best to match based on mutual interests, if you find that you and your mentor aren’t compatible, please raise this with the mentoring team (Elsa/Mozhgan).
+While we do our best to match based on mutual interests, if you find that you and your mentor aren’t compatible, please raise this with the mentoring team.
 Our goal is not to force you to stay with the mentor you were assigned to, but rather that you have a positive mentoring experience.
 Even if you and your assigned mentor are a good match, we encourage you to talk with others for a variety of perspectives and expertise.
 
 ## Mentoring Activities
 
-Before ISC, we ask that mentoring pairs communicate 2-3 times over email, video chat, slack direct-message, or other means.
+Before ISC/SC, we ask that mentoring pairs communicate 2-3 times over email, video chat, slack direct-message, or other means.
 
-During ISC, we encourage the mentors and mentees to attend several events:
-- The WHPC evening reception, usually on Wednesday
-- The WHPC workshop, usually on Thursday
-- The ISC poster session on Tuesday and Wednesday (though additional registration may be required)
+During ISC/SC, we encourage the mentors and mentees to attend several events
 
-After ISC, the formal mentoring relationship is over.
+| Event | ISC Day | SC Day |
+| ----- | ------- | ------ |
+| WHPC evening reception | Wednesday | Tuesday |
+| WHPC workshop | Thursday | Saturady |
+| Conf. Poster Session | Tues-Wed* | N/A |
+
+*Some additional registration may be required.
+
+After ISC/SC, the formal mentoring relationship is over.
 We encourage mentees and mentors to keep in touch, but it is not required.
 
 ## Common Questions
@@ -32,7 +37,7 @@ We encourage mentees and mentors to keep in touch, but it is not required.
 
 ### What can I do to get the most out of mentoring?
 
-- Keep in touch with your mentor before, during, and after the Summer School.
+- Keep in touch with your mentor before, during, and after the conference.
   You may not have burning questions at all times, but reaching out to your mentor will help you establish a good relationship with them.
 - Ask your mentor any questions you may have -- don’t hold back!
   Even if your mentor doesn’t have the answer, he or she can help you find another mentor in our community who can answer your question.
@@ -43,7 +48,7 @@ We encourage mentees and mentors to keep in touch, but it is not required.
 - Always seek mentoring in a public space.
 - Reach out beyond your assigned mentor.
   Getting a variety of opinions from multiple mentors is a great idea.
-- Talk to the mentoring team (Scott/Weronika) if you are not happy with your mentoring group.
+- Talk to the mentoring team if you are not happy with your mentoring group.
 
 ### What should I avoid?
 

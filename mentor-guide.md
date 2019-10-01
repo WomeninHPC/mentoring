@@ -2,7 +2,7 @@
 
 ## Principles of Good Mentoring
 
-Mentoring can happen before, during, and after ISC and the WHPC workshop.
+Mentoring can happen before, during, and after ISC/SC and the WHPC workshop.
 Be ready to practice the following:
 
 - Listen without judgement.

@@ -1,7 +1,7 @@
 # Women in HPC Workshop Formal Mentoring Program
 
-As part of the poster program for the Women in HPC workshop at ISC, we have organized a formal mentoring program.
-Each poster presenter is matched with a volunteer mentor from the WHPC community.
+As part of the program for the Women in HPC workshop at ISC and SC, we have organized a formal mentoring program.
+Each poster/lightning-talk presenter is matched with a volunteer mentor from the WHPC community.
 Much of the information contained in this document is taken from an invaluable resource:
 [*Adviser, Teacher, Role Model, Friend: On Being a Mentor to Students in Science and Engineering* (1997)](https://www.nap.edu/catalog/5789/adviser-teacher-role-model-friend-on-being-a-mentor-to).
 
