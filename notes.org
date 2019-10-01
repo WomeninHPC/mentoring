@@ -6,8 +6,14 @@ This org file can be used to send notification emails.
 
 ** Matches
 
+#+NAME: event
+#+BEGIN_SRC text
+SC19
+#+END_SRC
+
+
 #+NAME: matchmail
-#+BEGIN_SRC apples :tangle matchmail.scpt
+#+BEGIN_SRC apples :tangle matchmail.scpt :noweb yes
 on run argv
    set varMenteeName  to item 1 of argv
    set varMenteeEmail to item 2 of argv
@@ -17,16 +23,16 @@ on run argv
 
    set varBody to "Hello " & varMenteeName & ", I would like to introduce you to your mentor, " & varMentorName & ".
 
-I hope you are both excited for ISC and the WHPC workshop (just about 6 weeks away)! I hope that you are both able to connect at least 3 times between now and the workshop. Please use email, video chat, slack direct-messages or whatever works best. Not every mentor will be able to attend ISC and/or the WHPC workshop, but hopefully you can prep for the conference together.
+I hope you are both excited for <<event>> and the WHPC workshop (about 6 weeks away)! I hope that you are both able to connect at least 3 times between now and the workshop. Please use email, video chat, slack direct-messages or whatever works best. Not every mentor will be able to attend <<event>> and/or the WHPC workshop, but hopefully you can prep for the conference together.
 
 I've created some documents about mentoring that you can find here: https://github.com/womeninhpc/mentoring
 
-In addition to working on your poster, lightning talk, and a general elevator pitch of your work, I've shared topics you indicated interest in discussing below.
+In addition to working on your lightning talk and a general elevator pitch of your work, I've shared topics you indicated interest in discussing below.
 
 Please let me know if you have any questions!
 
 Elsa Gonsiorowski
-WHPC@ISC19 Mentor Chair
+WHPC@<<event>> Mentor Chair
 
 Topics
 ------
@@ -34,7 +40,7 @@ Topics
 "
 
    tell application "Mail"
-        set theMessage to make new outgoing message with properties {subject: "WHPC@ISC19 Mentor Match", content: varBody, visible:true}
+        set theMessage to make new outgoing message with properties {subject: "WHPC@<<event>> Mentor Match", content: varBody, visible:true}
         tell theMessage
              make new to recipient with properties {name:varMenteeName, address:varMenteeEmail}
              make new to recipient with properties {name:varMentorName, address:varMentorEmail}
